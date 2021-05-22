@@ -130,7 +130,7 @@ QuickSort(arr1,0,len(arr1) - 1)
 t_stop = perf_counter_ns()
 print("czas sortowania, zbior losowy, QuickSort:",
                                         t_stop-t_start)
-
+""" don't open, death inside.
 t_start = perf_counter_ns()
 QuickSort(arr1,0,len(arr1) - 1)
 t_stop = perf_counter_ns()
@@ -143,7 +143,7 @@ QuickSort(arr1,0,len(arr1) - 1)
 t_stop = perf_counter_ns()
 print("czas sortowania, zbior posortowany odwrotnie, Qs :",
                                          t_stop-t_start, "\n")
-
+"""
 
 
 
